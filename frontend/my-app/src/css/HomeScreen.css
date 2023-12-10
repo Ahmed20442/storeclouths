@@ -1,0 +1,38 @@
+.home-container {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ls {
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    margin: 10px;
+    /* Add some spacing between the buttons */
+}
+
+.nav-link:hover {
+    background-color: #2980b9;
+}
+
+article {
+    font-size: 1.2rem;
+    background-color: blanchedalmond;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 23px;
+}
