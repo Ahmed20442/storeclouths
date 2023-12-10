@@ -1,0 +1,61 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px;
+    margin: 39px 0;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-height: 105px;
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.quantity-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 16px;
+    margin: 0 5px;
+}
